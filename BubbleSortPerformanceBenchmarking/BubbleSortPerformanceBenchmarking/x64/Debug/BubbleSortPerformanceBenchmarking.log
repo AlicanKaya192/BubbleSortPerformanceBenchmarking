@@ -1,0 +1,17 @@
+﻿  BubbleSortPerformanceBenchmarking.cpp
+C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\Benchmark.h(23,79): warning C4244: 'return': conversion from '_Rep' to 'int', possible loss of data
+C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\Benchmark.h(23,79): warning C4244:         with
+C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\Benchmark.h(23,79): warning C4244:         [
+C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\Benchmark.h(23,79): warning C4244:             _Rep=__int64
+C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\Benchmark.h(23,79): warning C4244:         ]
+  (compiling source file 'BubbleSortPerformanceBenchmarking.cpp')
+      C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\Benchmark.h(23,79):
+      the template instantiation context (the oldest one first) is
+          C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking.cpp(13,42):
+          see reference to class template instantiation 'Benchmark<std::chrono::microseconds>' being compiled
+          C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\Benchmark.h(21,9):
+          while compiling class template member function 'int Benchmark<std::chrono::microseconds>::elapsed(void)'
+              C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking\BubbleSortPerformanceBenchmarking.cpp(18,18):
+              see the first reference to 'Benchmark<std::chrono::microseconds>::elapsed' in 'main'
+  
+  BubbleSortPerformanceBenchmarking.vcxproj -> C:\Users\alica\source\repos\BubbleSortPerformanceBenchmarking\x64\Debug\BubbleSortPerformanceBenchmarking.exe
